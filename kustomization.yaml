@@ -3,3 +3,7 @@ kind: Kustomization
 
 resources:
   - nginx.yaml
+
+images:
+  - name: swr.cn-north-4.myhuaweicloud.com/swr-qin/nginx
+    newTag: v2  
